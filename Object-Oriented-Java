@@ -44,3 +44,8 @@ public class Dog{
     //DO NOT WRITE ANYTHING HERE!!
   }
 }
+
+
+1.Create a new instance of Store called lemonadeStand in the main() method of Main.java and pass “lemonade” as the argument.
+2.Inside the main() method, print the instance field productType from lemonadeStand.
+
