@@ -32,3 +32,6 @@ public class Car {
 } 
 
 Tasks:
+1.Inside the Dog class of Dog.java, add a field to represent a dog’s name. Call this field name. We leave it up to you to figure out the correct type of this field.
+2.Inside the Dog class of Dog.java, add a field to represent a dog’s breed. Call this variable breed. We leave it up to you to figure out the correct type for this field.
+3.Inside the Dog class of Dog.java, add a field to represent a dog’s weight in kg. Call this field weight. We leave it up to you to figure out the correct type of this field.
