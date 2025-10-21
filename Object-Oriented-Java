@@ -1,1 +1,35 @@
+Classes: Instance Fields
+6 min
+A real car has characteristics such as brand, model, year, color, etc. In a Java object representing a car, these characteristics are represented by instance fields or instance variables.
+
+In the last exercise, we created an object, but our object has no characteristics! We’ll add characteristics to our class by including instance fields or instance 
+variables
+Preview: Docs Loading link description
+.
+
+Let’s revisit the Car class example.
+
+We want our Car objects to have different colors, so we declare an instance field called color. Instance variables are often characterized by their “has-a” relationship with the object. For example, a Car “has-a” color, “has-a” make, “has-a” model name, and “has-a” model year.
+
+Think about what qualities other than color a car might have.
+
+public class Car { 
+
+ /* 
+ declare fields inside the class 
+ by specifying the type and name 
+ */ 
+
+ public String color; 
+ public int year; 
+ public String modelName; 
+ public String make; 
+
+ public Car() { 
+   /*  
+   instance fields available in 
+   scope of the constructor method 
+   */ 
+ } 
+} 
 
