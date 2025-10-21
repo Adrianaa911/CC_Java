@@ -37,10 +37,10 @@ Tasks:
 3.Inside the Dog class of Dog.java, add a field to represent a dog’s weight in kg. Call this field weight. We leave it up to you to figure out the correct type of this field.
 
 public class Dog{
+  String name;
+  String breed;
+  double weight;
   public Dog(){
     //DO NOT WRITE ANYTHING HERE!!
-    public String name;
-    public String breed;
-    public int weight;
   }
 }
