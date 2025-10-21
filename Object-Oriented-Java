@@ -105,3 +105,19 @@ Car honda = new Car("green", false, 0);
 // values do not match types, error! 
 Car junker = new Car(true, 42, "brown"); 
 
+
+
+*Store.java (file)
+public class Store {
+  // instance fields
+  public String productType;
+  int inventoryCount;
+  double inventoryPrice;
+  
+  // constructor method
+  public Store(String product, int count, double price) {
+    productType = product;
+    inventoryCount = count;
+    inventoryPrice = price;
+  }
+}
