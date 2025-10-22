@@ -1,3 +1,9 @@
+1.Look at the code editor in the file Main.java. We have created a Main class with no method except main() and the class constructor.
+Run the code and observe the output.
+Notice that main() is very lengthy and contains many print statements. The repetitive code can be tedious to write if we need to make more than five deposits.
+In this lesson, we’ll learn how to make methods to deposit, withdraw, and check account balance for the SavingsAccount class.
+
+
 
 public class Main {
   public static void main(String[] args) {
