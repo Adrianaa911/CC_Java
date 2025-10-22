@@ -41,3 +41,25 @@ public class Main {
     System.out.println("Your balance is " + savings.balance);
   }
 }
+
+
+-- Defining Methods
+
+If we were to define a checkBalance() method for the Savings Account example we talked about earlier, it would look like the following:
+
+public void checkBalance(){
+  System.out.println("Hello!");
+  System.out.println("Your balance is " + balance);
+}
+
+
+
+
+The first line, public void checkBalance(), is the method declaration. It gives the program some information about the method:
+
+public means that other 
+classes can access this method. We will learn more about that later in the course.
+The void keyword means that there is no specific 
+output from the method. We will see methods that are not void later in this lesson, but for now, all of our methods will be void.
+checkBalance() is the name of the method.
+Every method has its own unique method signature which is composed of the method’s name and its parameter type. In this example, the method signature is checkBalance().
