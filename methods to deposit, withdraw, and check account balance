@@ -63,3 +63,28 @@ The void keyword means that there is no specific
 output from the method. We will see methods that are not void later in this lesson, but for now, all of our methods will be void.
 checkBalance() is the name of the method.
 Every method has its own unique method signature which is composed of the method’s name and its parameter type. In this example, the method signature is checkBalance().
+
+
+Calling Methods
+7 min
+When we add a non-static method to a class, it becomes available to use on an object of that class. In order to have our 
+methods
+Preview: Docs Loading link description
+ get executed, we must call the method on the object we created.
+
+
+tasks:
+
+1.In the main() method of Main.java, call the advertise() method of the lemonadeStand instance and observe the displayed output.
+
+public class Main {
+  public static void main(String[] args) {
+    Store lemonadeStand = new Store("Lemonade");
+    lemonadeStand.advertise();
+  }
+}
+
+
+Checkpoint 2 Enabled
+2.
+Now, replace the argument “Lemonade” with “Coffee” in the instance definition and run the code.
