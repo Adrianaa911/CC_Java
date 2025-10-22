@@ -85,6 +85,12 @@ public class Main {
 }
 
 
-Checkpoint 2 Enabled
-2.
-Now, replace the argument “Lemonade” with “Coffee” in the instance definition and run the code.
+2.Now, replace the argument “Lemonade” with “Coffee” in the instance definition and run the code.
+
+public class Main {
+  public static void main(String[] args) {
+    Store lemonadeStand = new Store("Coffee");
+    lemonadeStand.advertise();
+  }
+}
+
