@@ -96,6 +96,7 @@ public class Main {
 
 
 -- Reassigning Instance Fields
+In Store.java:
 
 public class Store {
   // instance fields
@@ -114,5 +115,6 @@ public class Store {
    price = newPrice;   
   }
 }
+
 
 
