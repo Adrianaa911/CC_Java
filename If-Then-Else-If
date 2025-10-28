@@ -43,3 +43,11 @@ public class Order {
     chemistrySet.ship();
   }
 }
+
+
+OUTPUT :
+
+High value item!
+Shipping
+Shipping cost: 1.75
+Order not ready
