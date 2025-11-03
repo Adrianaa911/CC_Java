@@ -43,3 +43,12 @@ public class Reservation {
     partyOfFour.informUser();
   }
 }
+
+
+
+OUTPUT:
+
+Reservation confirmed
+Please enjoy your meal!
+Reservation denied
+Unable to confirm reservation, please contact restaurant.
