@@ -1,3 +1,15 @@
+Our Reservation class has the method confirmReservation() which validates if a restaurant can accomodate a given reservation.
+We need to build the conditional logic into confirmReservation() using three instance variables:
+restaurantCapacity
+guestCount
+isRestaurantOpen
+Use an if-then-else statement:
+If restaurantCapacity is greater than or equal to guestCount and the restaurant is open, print "Reservation confirmed" and set isConfirmed to true.
+else print "Reservation denied" and set isConfirmed to false.
+Note: For now, the informUser() method will always print "Please enjoy your meal" even if the reservation was not confirmed. We will modify this method in an upcoming exercise!
+
+
+
 public class Reservation {
   int guestCount;
   int restaurantCapacity;
